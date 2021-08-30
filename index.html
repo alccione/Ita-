@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="tp-br">
+<head>
+<title>
+Cadastro de dados pessoais
+</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<header>
+<a href="#rodape">
+Ir para o rodapé
+</a>
+</header>
+<section>
+<main>
+<h1 id="titulo">
+Preencha o formulário
+</h1>
+<form id="cadastro">
+<label for="nome">
+Informe seu nome completo:
+</label>
+<input type="text" name="nomeCompleto" id="nome">
+<label for="cpf">
+Informe seu CPF:
+</label>
+<input type="number" name="cpf" id="cpf">
+<label for="rg">
+    Informe seu RG:
+</label>
+<input type="number" name="rg" id="rg">
+<label for="sexo">
+Informe seu sexo:
+</label>
+<select name="sexo" id="sexo">
+    <option value="0">
+    ...
+    </option>
+    <option id="feminino">
+F
+    </option>
+    <option value="masculino">
+M
+    </option>
+    </select>
+<label for="endereço">
+    Informe seu endereço:
+</label>
+<input type="text" name="endereço" id="endereço">
+<label for="número">
+    Informe o número:
+</label>
+<input type="number" name="número" id="número">
+<label for="bairro">
+Informe seu bairro:
+</label>
+<input type="text" name="bairro" id="bairro">
+<label for="cidade">
+Informe sua cidade:
+</label>
+<input type="text" name="cidade" id="cidade">
+<label for="estado">
+    Informe seu estado:
+</label>
+<input type="text" name="estado" id="estado">
+<label for="cep">
+Informe seu cep:
+</label>
+<input type="number" name="cep" id="cep" required pattern="\d{5}-?\d{3}"/>
+<label for="telefone">
+Informe seu telefone fixo:
+</label>
+<input type="tel" name="telefone" id="telefone">
+<label for="celular">
+Informe o número do seu celular:
+</label>
+<input type="tel" name="celular" id="celular">
+<button type="submit">
+Enviar dados
+</button>
+</form>
+<script src="script.js">
+</script>
+</main>
+</section>
+<footer>
+<p id="rodape">
+&copy; todos os direitos reservados.
+</p>
+<a href="#titulo">
+Voltar para o topo
+</a>
+</footer>
+</body>
+</html>
